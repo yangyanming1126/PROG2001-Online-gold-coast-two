@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/YihansFolder/YihansScene/YihansScene.unity
+    guid: 0b37a5e7f34e69a4e9eb38d53fd4ab2b
   m_configObjects: {}
