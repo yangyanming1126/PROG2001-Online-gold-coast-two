@@ -3031,6 +3031,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f93caf0607907340b2cace7bfbfa67d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 7
+  countText: {fileID: 0}
+  winPanel: {fileID: 0}
+  mouseSense: 250
 --- !u!143 &341096062
 CharacterController:
   m_ObjectHideFlags: 0
