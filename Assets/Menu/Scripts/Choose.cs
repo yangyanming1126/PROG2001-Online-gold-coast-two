@@ -14,7 +14,7 @@ public class Choose : MonoBehaviour
     }
     void OnClick()
     {
-        SceneManager.LoadScene("YanmingsScene");
+        SceneManager.LoadScene("Choose");
     }
     // Update is called once per frame
     void Update()
