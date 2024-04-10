@@ -42,8 +42,7 @@ public class ZiqiansPlayerController : MonoBehaviour
             count += 1;
 
             SetCountText();
-        }
-        else if (other.gameObject.CompareTag("BadPickup"))
+        }else if (other.gameObject.CompareTag("BadPickup"))
         {
             other.gameObject.SetActive(false);
             count -= 1;
