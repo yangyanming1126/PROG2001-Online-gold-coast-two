@@ -14,7 +14,7 @@ public class Choose : MonoBehaviour
     }
     void OnClick()
     {
-        SceneManager.LoadScene("Choose");
+        SceneManager.LoadScene("MenuScene");
     }
     // Update is called once per frame
     void Update()
