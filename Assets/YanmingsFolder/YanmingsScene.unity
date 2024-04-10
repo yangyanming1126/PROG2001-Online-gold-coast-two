@@ -19088,7 +19088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSense: 250
-  speed: 100
+  speed: 50
   countText: {fileID: 0}
   winTextObject: {fileID: 0}
 --- !u!114 &1140419723
