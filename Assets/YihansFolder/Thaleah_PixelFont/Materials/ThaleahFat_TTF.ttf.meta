@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: e3265ab4bf004d28a9537516768c1c75
+guid: 585188cdc4600544eb408bee749e4b3a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
+  fontSize: 12
   forceTextureCase: -1
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Liberation Sans
+  - ThaleahFat
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 2
