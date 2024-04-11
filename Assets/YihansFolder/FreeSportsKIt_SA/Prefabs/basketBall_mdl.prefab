@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 8322170568614142322}
   - component: {fileID: 6096393145294263736}
   - component: {fileID: 3992007886301730701}
+  - component: {fileID: -2016331151381460569}
   m_Layer: 0
   m_Name: basketBall_mdl
-  m_TagString: Untagged
+  m_TagString: PickUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5735968766111233133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,4 +97,17 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.12452907
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &-2016331151381460569
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5735968766111233133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.24905814, y: 0.24905814, z: 0.24905814}
   m_Center: {x: 0, y: 0, z: 0}
