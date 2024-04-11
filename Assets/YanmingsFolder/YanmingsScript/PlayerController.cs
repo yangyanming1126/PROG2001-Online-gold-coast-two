@@ -115,6 +115,8 @@ public class PlayerController : MonoBehaviour
         // Check if the object the player collided with has the "PickUp" tag.
         if (other.gameObject.CompareTag("PickUp"))
         {
+
+            GetComponent<AudioSource>().Play();
             // Deactivate the collided object (making it disappear).
             other.gameObject.SetActive(false);
 
@@ -133,7 +135,7 @@ public class PlayerController : MonoBehaviour
         countText.text = "Count: " + count.ToString();
 
         // Check if the count has reached or exceeded the win condition.
-        if (count >= 12)
+        if (count >= 5)
         {
             // Display the win text.
             winTextObject.SetActive(true);

@@ -42,14 +42,14 @@ public class YihansPlayerController : MonoBehaviour
             count += 1;
 
             SetCountText();
-        }else if (other.gameObject.CompareTag("BadPickup"))
+        }else if (other.gameObject.CompareTag("Death"))
         {
             other.gameObject.SetActive(false);
             count -= 1;
 
             SetCountText();
 
-            animator.SetTrigger("isDead");
+            animator.SetTrigger("touchOfDead");
         }
     }
 
@@ -70,7 +70,17 @@ public class YihansPlayerController : MonoBehaviour
     void Update()
     {
         bool forward = Input.GetKey("w");
-
+        
+        bool jumped = Input.GetKey("h");
+        
+        if (jumped)
+        {
+            animator.SetBool("Jumping", true);
+        }
+        if(!jumped)
+        {
+            animator.SetBool("Jumping", false);
+        }
 
         if (forward )
         {
