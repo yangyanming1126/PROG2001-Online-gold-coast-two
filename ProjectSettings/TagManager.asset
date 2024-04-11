@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PickUp
   - Death
+  - MissionAception
   layers:
   - Default
   - TransparentFX
