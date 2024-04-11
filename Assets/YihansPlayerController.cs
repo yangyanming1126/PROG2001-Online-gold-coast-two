@@ -38,6 +38,7 @@ public class YihansPlayerController : MonoBehaviour
     {
         if(other.gameObject.CompareTag("PickUp"))
         {
+            GetComponent<AudioSource>().Play();
             other.gameObject.SetActive(false);
             count += 1;
 
