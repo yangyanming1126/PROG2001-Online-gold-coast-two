@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Menu/MenuScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Menu/Choose.unity
+    path: Assets/Menu/Environment Choose.unity
     guid: cbc7cef1a017e2f4185433e0ce13c044
   - enabled: 1
     path: Assets/YihansFolder/YihansScene/Yihans Scene.unity
