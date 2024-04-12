@@ -70,6 +70,11 @@ public class ZiqiansPlayerController : MonoBehaviour
 
     void Update()
     {
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("8888888888888888");
+        }
         bool forward = Input.GetKey("w");
 
 
@@ -87,6 +92,8 @@ public class ZiqiansPlayerController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
 
         float verticle = Input.GetAxis("Vertical");
+
+        Debug.Log(horizontal);
         Vector3 movement = transform.forward * verticle + transform.right * horizontal;
         characterController.Move(movement * Time.deltaTime * speed);
 
