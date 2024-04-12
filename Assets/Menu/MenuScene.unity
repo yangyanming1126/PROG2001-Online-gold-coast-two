@@ -6367,7 +6367,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 511515188}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 107657347}
+        m_TargetAssemblyTypeName: NavScript, Assembly-CSharp
+        m_MethodName: loadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Credict
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &511515188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8305,7 +8317,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Instruction
+  m_Text: Introduction
 --- !u!222 &684273313
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9243,7 +9255,7 @@ GameObject:
   - component: {fileID: 739836654}
   - component: {fileID: 739836653}
   m_Layer: 5
-  m_Name: Instruction
+  m_Name: Introduction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9313,7 +9325,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 739836654}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 107657347}
+        m_TargetAssemblyTypeName: NavScript, Assembly-CSharp
+        m_MethodName: loadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Introduction
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &739836654
 MonoBehaviour:
   m_ObjectHideFlags: 0
