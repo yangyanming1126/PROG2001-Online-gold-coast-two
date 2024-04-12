@@ -93,7 +93,7 @@ public class ZiqiansPlayerController : MonoBehaviour
 
         float verticle = Input.GetAxis("Vertical");
 
-        Debug.Log(horizontal);
+       
         Vector3 movement = transform.forward * verticle + transform.right * horizontal;
         characterController.Move(movement * Time.deltaTime * speed);
 
