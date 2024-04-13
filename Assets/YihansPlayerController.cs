@@ -89,9 +89,9 @@ public class YihansPlayerController : MonoBehaviour
         Vector3 movement = transform.forward * verticle + transform.right * horizontal;
         characterController.Move(movement * Time.deltaTime * speed);
 
-        bool rightButton = Input.GetMouseButton(1);
+        bool leftButton = Input.GetMouseButton(1);
 
-        if (rightButton)
+        if (leftButton)
         {
             float mouseX = Input.GetAxis("Mouse X") * mouseSense * Time.deltaTime;
             float mouseY = Input.GetAxis("Mouse Y") * mouseSense * Time.deltaTime;
