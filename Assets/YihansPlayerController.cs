@@ -72,17 +72,6 @@ public class YihansPlayerController : MonoBehaviour
     {
         bool forward = Input.GetKey("w");
         
-        bool jumped = Input.GetKey("h");
-        
-        if (jumped)
-        {
-            animator.SetBool("Jumping", true);
-        }
-        if(!jumped)
-        {
-            animator.SetBool("Jumping", false);
-        }
-
         if (forward )
         {
             animator.SetBool("Walking", true);
